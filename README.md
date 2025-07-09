@@ -1,65 +1,69 @@
 🫀 Heart Disease Diagnosis
+
 A machine learning-powered approach to heart disease prediction and diagnosis. This project leverages advanced algorithms to analyze patient data and assess potential risks. Designed for efficiency and accuracy, it aims to support healthcare professionals in making informed decisions.
 
 📌 Features
-🔍 Predicts the likelihood of heart disease using patient data
 
-🤖 Utilizes machine learning models for classification
+Predicts the likelihood of heart disease using patient data
 
-📊 Visualizes key health metrics and model performance
+Utilizes machine learning models for classification
 
-🧪 Includes Jupyter notebooks for experimentation and analysis
+Visualizes key health metrics and model performance
 
-🐳 Dockerized for easy deployment
+Includes Jupyter notebooks for experimentation and analysis
+
+Dockerized for easy deployment
+
 
 🧠 Algorithms Used
-Logistic Regression
 
-Random Forest
+1. Logistic Regression
 
-Support Vector Machine (SVM)
+2. Random Forest
 
-K-Nearest Neighbors (KNN)
+3. Support Vector Machine (SVM)
 
-XGBoost
+4. K-Nearest Neighbors (KNN)
 
+5. XGBoost
 
 🚀 Getting Started
 
 1. Clone the repository
-   
-git clone https://github.com/Im-Fardin/Heart-Disease-Diagnosis.git
 
-cd Heart-Disease-Diagnosis
+-  git clone https://github.com/Im-Fardin/Heart-Disease-Diagnosis.git
+
+- cd Heart-Disease-Diagnosis
 
 2. Install dependencies
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 🐳 Docker Setup
 
-docker build -t heart-disease-diagnosis .
-
-docker run -p 8888:8888 heart-disease-diagnosis
+- docker build -t heart-disease-diagnosis .
+- 
+- docker run -p 8888:8888 heart-disease-diagnosis
 
 📈 Dataset
+
 The dataset used in this project is based on publicly available heart disease data (e.g., UCI Heart Disease dataset). It includes features such as:
 
-Age
+1. Age
 
-Sex
+2. Sex
 
-Chest pain type
+3. Chest pain type
 
-Resting blood pressure
+4. Resting blood pressure
 
-Cholesterol
+5. Cholesterol
 
-Fasting blood sugar
+6. Fasting blood sugar
 
-Maximum heart rate
+7. Maximum heart rate
 
-Exercise-induced angina
+8. Exercise-induced angina
 
 🤝 Contributing
 
@@ -68,4 +72,3 @@ Contributions are welcome! Feel free to fork the repo and submit a pull request.
 📄 License
 
 This project is licensed under the MIT License.
-
