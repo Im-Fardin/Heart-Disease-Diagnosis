@@ -23,20 +23,13 @@ K-Nearest Neighbors (KNN)
 
 XGBoost
 
-📁 Project Structure
-Heart-Disease-Diagnosis/
-├── data/               # Dataset files
-├── notebooks/          # Jupyter notebooks for EDA and modeling
-├── src/                # Source code for data processing and modeling
-├── Dockerfile          # Docker configuration
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation
 
 🚀 Getting Started
 
 1. Clone the repository
    
 git clone https://github.com/Im-Fardin/Heart-Disease-Diagnosis.git
+
 cd Heart-Disease-Diagnosis
 
 2. Install dependencies
@@ -46,6 +39,7 @@ pip install -r requirements.txt
 🐳 Docker Setup
 
 docker build -t heart-disease-diagnosis .
+
 docker run -p 8888:8888 heart-disease-diagnosis
 
 📈 Dataset
@@ -68,8 +62,10 @@ Maximum heart rate
 Exercise-induced angina
 
 🤝 Contributing
+
 Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
 📄 License
+
 This project is licensed under the MIT License.
 
